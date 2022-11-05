@@ -43,7 +43,7 @@ let marsRovers = [
   ]
 
 function lastObjective(){
-    lastItem = marsRovers[objectives.length]
+    lastItem = marsRovers.length
     
     console.log(lastItem-1);
     
